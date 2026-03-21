@@ -7,7 +7,7 @@ import androidx.compose.ui.unit.dp
 val Shapes = Shapes(
 
     // dùng cho hình ảnh dog icon (hình tròn)
-    small = RoundedCornerShape(50.dp),
+    small = RoundedCornerShape(0,80,80,0),
 
     // dùng cho Card của danh sách
     medium = RoundedCornerShape(

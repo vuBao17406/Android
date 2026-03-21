@@ -73,12 +73,12 @@ class MainActivity : ComponentActivity() {
 fun WoofApp() {
     Scaffold(
         topBar = {
-            WoofTopAppBar()
+            WoofTopAppBar() //layout chính của material
         }
     ) { it ->
-        LazyColumn(contentPadding = it) {
-            items(dogs) {
-                DogItem(
+        LazyColumn(contentPadding = it) { /*danh sách cuộn dọc*/
+            items(dogs) { //lặp qua danh sách chó
+                DogItem(          //Hiển thị từng con chó
                     dog = it,
                     modifier = Modifier.padding(dimensionResource(R.dimen.padding_small))
                 )
