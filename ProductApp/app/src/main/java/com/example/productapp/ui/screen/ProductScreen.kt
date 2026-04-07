@@ -56,7 +56,7 @@ fun Base64Image(base64: String, modifier: Modifier = Modifier) {
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun ProductScreen(~
+fun ProductScreen(
     productViewModel: ProductViewModel = viewModel(),
     authViewModel: AuthViewModel = viewModel(),
     onLogout: () -> Unit

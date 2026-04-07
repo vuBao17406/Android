@@ -2,7 +2,7 @@ package com.example.productapp.model
 
 import com.google.firebase.firestore.Exclude
 
-data class Product(
+data class  Product(
     @get:Exclude @set:Exclude var id: String = "",
     var name: String = "",
     var category: String = "",
