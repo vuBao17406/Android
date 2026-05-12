@@ -16,12 +16,12 @@
         android:theme="@style/Theme.Firebaseproject"
         tools:targetApi="31">
         <activity
-            android:name=".CourseDetailsActivity"
+            android:name=".ProductDetailsActivity"
             android:exported="false"
             android:label="@string/title_activity_course_details"
             android:theme="@style/Theme.Firebaseproject" />
         <activity
-            android:name=".UpdateCourse"
+            android:name=".UpdateProduct"
             android:exported="false"
             android:label="@string/title_activity_update_course"
             android:theme="@style/Theme.Firebaseproject" />
